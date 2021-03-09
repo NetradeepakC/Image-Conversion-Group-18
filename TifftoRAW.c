@@ -92,7 +92,7 @@ int Downscale_Width(unsigned char* p,int sample_no)
 	switch(sample_no)
 	{
 		case 0:
-			image1.image_data_R=(unsigned char*)realloc(image1.image_data_R,image1.height*256);//Assigning a new memory location to array
+			image1.image_data_R=(unsigned char*)realloc(image1.image_data_R,image1.height*256);//Assigning a new memory location to the array
 			for(i=0;i<256;i++)
 			{
 				for(j=0;j<image1.height;j++)

@@ -2,7 +2,7 @@
 # pragma pack(1)
 unsigned short endian;
 unsigned int IFD_entry_counter;
-struct image
+struct image//Needed for all c files
 {
 	unsigned char* image_data_R;
 	unsigned char* image_data_G;
